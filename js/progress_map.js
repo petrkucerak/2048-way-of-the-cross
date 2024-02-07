@@ -1,8 +1,9 @@
+const numbers = [
+  2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768,
+  65536, 131072, 262144,
+];
+
 function updateProgress(grid) {
-  const numbers = [
-    2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768,
-    65536, 131072, 262144,
-  ];
   // console.log(grid);
   // get max value
   let maxValue = 0;
@@ -16,8 +17,32 @@ function updateProgress(grid) {
     )
   );
   for (let i = 0; numbers[i] <= maxValue; i += 1) {
-    let el = document.querySelector(`#progress-${numbers[i]}`);
+    const el = document.querySelector(`#progress-${numbers[i]}`);
     el.classList.remove("progress-not-display", "progress-not-open");
     el.classList.add("progress-open");
   }
 }
+
+function openBox() {
+  console.log(this);
+  box.classList.remove("progress-not-display");
+}
+
+function closeBox() {
+  console.log("closess");
+  box.classList.add("progress-not-display");
+}
+
+// Register onclick action
+numbers.map((no) => {
+  const icon = document.querySelector(`#progress-${no}`);
+  const box = document.querySelector(`#progress-text-${no}`);
+  const close = document.querySelector(`#progress-text-close-${no}`);
+
+  icon.addEventListener("click", () =>
+    box.classList.remove("progress-not-display")
+  );
+  close.addEventListener("click", () => {
+    box.classList.add("progress-not-display");
+  });
+});
