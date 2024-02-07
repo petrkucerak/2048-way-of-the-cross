@@ -29,9 +29,11 @@ let lastMaxValue = 0;
 
 function informAboutNewStation(station) {
   const el = document.querySelector("#new-station");
-  el.innerHTML = `<p class="new-station-title">Nové ${
+  el.innerHTML = `<p class="new-station-title">Objeveno ${
     numbers.indexOf(station) + 1
   }. zastavení - ${stations[numbers.indexOf(station)]}</p>`;
+
+  el.classList.add("tile-merged");
 
   setTimeout(() => {
     el.innerHTML = "";

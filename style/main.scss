@@ -77,6 +77,8 @@ h1.title {
   font-weight: 600;
   // text-align: center;
   margin: 0;
+  @include animation(pop 200ms ease $transition-speed);
+  @include animation-fill-mode(backwards);
 }
 
 .scores-container {
