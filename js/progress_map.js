@@ -58,8 +58,7 @@ function updateProgress(grid) {
   }
 
   if (lastMaxValue < maxValue) {
-    informAboutNewStation(maxValue);
-    console.log(`Dosaženo nové zastavení ${maxValue}`);
+    if (lastMaxValue !== 0) informAboutNewStation(maxValue);
     lastMaxValue = maxValue;
   }
 }
