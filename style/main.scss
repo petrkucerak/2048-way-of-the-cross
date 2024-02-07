@@ -1,5 +1,5 @@
 @import "_helpers";
-@import "fonts/clear-sans.css";
+@import "fonts/roboto.css";
 
 $field-width: 500px;
 $grid-spacing: 15px;
@@ -30,7 +30,7 @@ body {
 
   background: #faf8ef;
   color: $text-color;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 18px;
 }
 
