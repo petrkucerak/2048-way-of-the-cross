@@ -51,6 +51,7 @@ h1.title {
   margin: 0;
   display: block;
   float: left;
+  margin-bottom: 0.5rem;
 }
 
 @include keyframes("move-up") {
