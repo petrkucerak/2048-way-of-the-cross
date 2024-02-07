@@ -30,10 +30,13 @@ numbers.map((no) => {
   const close = document.querySelector(`#progress-text-close-${no}`);
 
   icon.addEventListener("click", () => {
-    if (!icon.classList.contains("progress-not-open"))
+    if (!icon.classList.contains("progress-not-open")) {
       box.classList.remove("progress-not-display");
+      box.scrollIntoView();
+    }
   });
   close.addEventListener("click", () => {
     box.classList.add("progress-not-display");
+    window.scrollTo(0, 0);
   });
 });
