@@ -23,25 +23,16 @@ function updateProgress(grid) {
   }
 }
 
-function openBox() {
-  console.log(this);
-  box.classList.remove("progress-not-display");
-}
-
-function closeBox() {
-  console.log("closess");
-  box.classList.add("progress-not-display");
-}
-
 // Register onclick action
 numbers.map((no) => {
   const icon = document.querySelector(`#progress-${no}`);
   const box = document.querySelector(`#progress-text-${no}`);
   const close = document.querySelector(`#progress-text-close-${no}`);
 
-  icon.addEventListener("click", () =>
-    box.classList.remove("progress-not-display")
-  );
+  icon.addEventListener("click", () => {
+    if (!icon.classList.contains("progress-not-open"))
+      box.classList.remove("progress-not-display");
+  });
   close.addEventListener("click", () => {
     box.classList.add("progress-not-display");
   });
