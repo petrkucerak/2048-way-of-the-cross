@@ -23,39 +23,54 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.57245266"
-     inkscape:cx="139.74955"
-     inkscape:cy="270.76475"
+     inkscape:cx="32.317083"
+     inkscape:cy="272.51162"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg8" />
-  <path
-     d="M416 128c-18.9 4.25-36.8 8.94-53.7 13.95-40.5 12-75.5 27.15-105.4 41.65-19.3 9.37-26.2 13.51-51.5 28.23-58.4 33.69-93.4 77.4-93.4 142.81C112 428.55 167.6 480 256 480s144-55.81 144-129.72S339 225.24 416 128z"
-     fill="none"
-     stroke="currentColor"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     stroke-width="32"
-     id="path2"
-     style="stroke:#ffffff;stroke-opacity:1;stroke-width:42;stroke-dasharray:none" />
-  <path
-     d="M264 180.19c-19.69-27-38.2-38.69-52.7-46.59C162.6 107.1 96 96 96 96c41.5 43.7 37.2 90.1 32 128 0 0-3.87 32.88 1.91 58.41"
-     fill="none"
-     stroke="currentColor"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     stroke-width="32"
-     id="path4"
-     style="stroke:#ffffff;stroke-opacity:1;stroke-width:42;stroke-dasharray:none" />
-  <path
-     d="M372 139.15C356.55 102.6 336 64 336 64s-63.32 0-135.69 64M253.48 87.57C221.25 45.81 176 32 176 32c-15.3 20.8-28.79 51.58-34.87 74.17"
-     fill="none"
-     stroke="currentColor"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     stroke-width="32"
-     id="path6"
-     style="stroke:#ffffff;stroke-opacity:1;stroke-width:42;stroke-dasharray:none" />
+  <g
+     id="g12078"
+     transform="matrix(0.54992493,0,0,0.54992493,115.21908,115.21912)">
+    <path
+       d="m 416,128 c -18.9,4.25 -36.8,8.94 -53.7,13.95 -40.5,12 -75.5,27.15 -105.4,41.65 -19.3,9.37 -26.2,13.51 -51.5,28.23 C 147,245.52 112,289.23 112,354.64 112,428.55 167.6,480 256,480 344.4,480 400,424.19 400,350.28 400,276.37 339,225.24 416,128 Z"
+       fill="none"
+       stroke="currentColor"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-width="32"
+       id="path2"
+       style="stroke:#ffffff;stroke-width:42;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 264,180.19 C 244.31,153.19 225.8,141.5 211.3,133.6 162.6,107.1 96,96 96,96 c 41.5,43.7 37.2,90.1 32,128 0,0 -3.87,32.88 1.91,58.41"
+       fill="none"
+       stroke="currentColor"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-width="32"
+       id="path4"
+       style="stroke:#ffffff;stroke-width:42;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 372,139.15 C 356.55,102.6 336,64 336,64 c 0,0 -63.32,0 -135.69,64 M 253.48,87.57 C 221.25,45.81 176,32 176,32 160.7,52.8 147.21,83.58 141.13,106.17"
+       fill="none"
+       stroke="currentColor"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-width="32"
+       id="path6"
+       style="stroke:#ffffff;stroke-width:42;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:100.958px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:296.983;stroke-linecap:round;stroke-miterlimit:16.7;stroke-dasharray:none;paint-order:markers fill stroke"
+     x="-0.34507075"
+     y="67.288803"
+     id="text301"><tspan
+       sodipodi:role="line"
+       id="tspan299"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:296.983;stroke-dasharray:none"
+       x="-0.34507075"
+       y="67.288803">VIII</tspan></text>
 </svg>
