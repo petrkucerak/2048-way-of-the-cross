@@ -1,7 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-question-mark"
-   width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none"
-   stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-   <path d="M8 8a3.5 3 0 0 1 3.5 -3h1a3.5 3 0 0 1 3.5 3a3 3 0 0 1 -2 3a3 4 0 0 0 -2 4" />
-   <path d="M12 19l0 .01" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-question-mark"
+   width="44"
+   height="44"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="#fff"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg21051"
+   sodipodi:docname="16.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs21055" />
+  <sodipodi:namedview
+     id="namedview21053"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="13.322535"
+     inkscape:cx="-0.56295594"
+     inkscape:cy="13.736125"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21051" />
+  <g
+     id="g21177"
+     transform="matrix(0.56818182,0,0,0.56818182,5.1818182,5.1818182)">
+    <path
+       stroke="none"
+       d="M 0,0 H 24 V 24 H 0 Z"
+       fill="none"
+       id="path21045" />
+    <path
+       d="m 8,8 a 3.5,3 0 0 1 3.5,-3 h 1 a 3.5,3 0 0 1 3.5,3 3,3 0 0 1 -2,3 3,4 0 0 0 -2,4"
+       id="path21047" />
+    <path
+       d="m 12,19 v 0.01"
+       id="path21049" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:4.50242px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:13.2446;stroke-linecap:round;stroke-miterlimit:16.7;stroke-dasharray:none;paint-order:markers fill stroke"
+     x="-0.26161522"
+     y="3.0008805"
+     id="text301"><tspan
+       sodipodi:role="line"
+       id="tspan299"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';fill:#f9e71f;fill-opacity:1;stroke:none;stroke-width:13.2446;stroke-dasharray:none"
+       x="-0.26161522"
+       y="3.0008805">II</tspan></text>
 </svg>
