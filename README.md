@@ -20,7 +20,7 @@ Clone version of the game 2048 with the theme of the Stations of the Cross for t
 | 12.                  | Jesus dies on the Cross                                                      | torn curtain or cross                                                       | ![](icons/dark/12.svg) |
 | 13.                  | Jesus is taken down from the Cross                                           | crying person or blue stones - tears                                        | ![](icons/dark/13.svg) |
 | 14.                  | Jesus is laid in the tomb                                                    | stone or cemetery candles                                                   | ![](icons/dark/14.svg) |
-| **Way of the Light** | use as bonus                                                                 |
+| **Way of the Light** | *used as bonus*                                                              |
 | 15.                  | Jesus Rises from the Dead                                                    |                                                                             | ![](icons/dark/15.svg) | (Mt 28,5-6)         |
 | 16.                  | The Disciples Discover the Empty Tomb                                        |                                                                             | ![](icons/dark/16.svg) | (Jan 20,6-8)        |
 | 17.                  | The Risen Lord Appears to Mary Magdalen, Apostle to the Apostles             |                                                                             | ![](icons/dark/17.svg) | (Jan 20,16.18)      |
