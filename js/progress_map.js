@@ -28,6 +28,15 @@ let lastMaxValue = 0;
 
 function informAboutNewStation(station) {
   const messageEl = document.querySelector(".game-message");
+  const box = document.querySelector("#game-message");
+
+  // handle click
+  box.addEventListener("touchstart", () => {
+    if (messageEl.classList.contains("game-info")) {
+      el.innerHTML = "";
+      messageEl.classList.remove("game-info");
+    }
+  });
 
   const el = document.querySelector("#new-station");
   el.innerHTML = `<p class="new-station-title">Objeveno ${
@@ -39,8 +48,10 @@ function informAboutNewStation(station) {
   messageEl.classList.add("game-info");
 
   setTimeout(() => {
-    el.innerHTML = "";
-    messageEl.classList.remove("game-info");
+    if (messageEl.classList.contains("game-info")) {
+      el.innerHTML = "";
+      messageEl.classList.remove("game-info");
+    }
   }, 5000);
 }
 
