@@ -97,3 +97,11 @@ numbers.map((no) => {
     window.scrollTo(0, 0);
   });
 });
+
+const closeWelcome = document.querySelector("#progress-text-close-welcome");
+closeWelcome.addEventListener("click", () => {
+  const boxWelcome = document.querySelector("#welcome-info");
+  const messageEl = document.querySelector(".game-message");
+  messageEl.classList.remove("game-info");
+  boxWelcome.classList.add("hidden");
+});

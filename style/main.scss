@@ -46,12 +46,48 @@ body {
 }
 
 h1.title {
+  width: 100%;
   font-size: 70px;
   font-weight: bold;
   margin: 0;
   display: block;
   float: left;
   margin-bottom: 0.5rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.welcome-info {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  margin: 1rem;
+  text-align: left;
+
+  .progress-text-close-welcome {
+    cursor: pointer;
+    width: 2rem;
+  }
+
+  @include smaller($mobile-threshold) {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    .progress-text-close-welcome {
+      width: 1.8rem;
+    }
+  }
+
+  @include smaller($super-small-phones) {
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+    .progress-text-close-welcome {
+      width: 1.4rem;
+    }
+  }
 }
 
 @include keyframes("move-up") {
