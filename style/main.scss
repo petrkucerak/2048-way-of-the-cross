@@ -303,6 +303,10 @@ hr {
     &.game-over {
       display: block;
     }
+    &.game-info {
+      display: block;
+      @include animation(fade-in 1ms ease $transition-speed * 12);
+    }
   }
 }
 
@@ -652,6 +656,10 @@ hr {
       &.game-over {
         display: block;
       }
+      &.game-info {
+        display: block;
+        @include animation(fade-in 1ms ease $transition-speed * 12);
+      }
     }
   }
 
@@ -848,6 +856,10 @@ hr {
       &.game-won,
       &.game-over {
         display: block;
+      }
+      &.game-info {
+        display: block;
+        @include animation(fade-in 1ms ease $transition-speed * 12);
       }
     }
   }
