@@ -104,4 +104,14 @@ closeWelcome.addEventListener("click", () => {
   const messageEl = document.querySelector(".game-message");
   messageEl.classList.remove("game-info");
   boxWelcome.classList.add("hidden");
+  localStorage.setItem("closeWelcomeMessage", "true");
 });
+
+window.onload = () => {
+  if (localStorage.getItem("closeWelcomeMessage") !== "true") {
+    const boxWelcome = document.querySelector("#welcome-info");
+    const messageEl = document.querySelector(".game-message");
+    messageEl.classList.add("game-info");
+    boxWelcome.classList.remove("hidden");
+  }
+};
