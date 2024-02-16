@@ -30,7 +30,7 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="6.6612673"
-     inkscape:cx="33.552174"
+     inkscape:cx="22.593298"
      inkscape:cy="21.167143"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -65,15 +65,17 @@
        d="m 16,20 h 2"
        id="path21891" />
   </g>
-  <text
-     xml:space="preserve"
-     style="font-size:4.50242px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:13.2446;stroke-linecap:round;stroke-miterlimit:16.7;stroke-dasharray:none;paint-order:markers fill stroke"
-     x="-0.26161522"
-     y="3.0008805"
-     id="text301"><tspan
-       sodipodi:role="line"
-       id="tspan299"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';fill:#f9e71f;fill-opacity:1;stroke:none;stroke-width:13.2446;stroke-dasharray:none"
-       x="-0.26161522"
-       y="3.0008805">IV</tspan></text>
+  <g
+     aria-label="IV"
+     id="text301"
+     style="font-size:4.50242px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;stroke:none;stroke-width:13.2446;stroke-miterlimit:16.7;paint-order:markers fill stroke">
+    <path
+       d="M 0.9211494,0 V 3.0008805 H 0 V 0 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';fill:#f9e71f"
+       id="path440" />
+    <path
+       d="M 4.040746,0 3.1086044,3.0008805 H 2.1698674 L 1.1981537,0 h 0.9717137 l 0.4726662,1.6356447 q 0.048366,0.1450976 0.085739,0.2857982 L 3.2822817,0 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';fill:#f9e71f"
+       id="path442" />
+  </g>
 </svg>

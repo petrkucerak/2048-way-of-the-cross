@@ -30,7 +30,7 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="6.6612673"
-     inkscape:cx="-33.251931"
+     inkscape:cx="-44.210807"
      inkscape:cy="7.205836"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -53,15 +53,21 @@
        d="m 12,3 1.465,1.638 A 2,2 0 1 1 10.45,4.737 Z"
        id="path18515" />
   </g>
-  <text
-     xml:space="preserve"
-     style="font-size:4.50242px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:13.2446;stroke-linecap:round;stroke-miterlimit:16.7;stroke-dasharray:none;paint-order:markers fill stroke"
-     x="0.059358075"
-     y="3.0008805"
-     id="text301"><tspan
-       sodipodi:role="line"
-       id="tspan299"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:13.2446;stroke-dasharray:none"
-       x="0.059358075"
-       y="3.0008805">XIV</tspan></text>
+  <g
+     aria-label="XIV"
+     id="text301"
+     style="font-size:4.50242px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;stroke:none;stroke-width:13.2446;stroke-miterlimit:16.7;paint-order:markers fill stroke">
+    <path
+       d="M 2.8887597,0 2.0181746,1.3938155 3.0272618,3.0008805 H 1.956618 L 1.4026093,2.0577466 0.84420374,3.0008805 H 0 L 0.96731679,1.4465783 0.03957205,0 H 1.1124143 L 1.5784851,0.80683013 2.0621435,0 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, '"
+       id="path2165" />
+    <path
+       d="M 4.14847,0 V 3.0008805 H 3.2273206 V 0 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, '"
+       id="path2167" />
+    <path
+       d="M 7.2680666,0 6.3359249,3.0008805 H 5.397188 L 4.4254743,0 H 5.397188 L 5.8698541,1.6356447 Q 5.91822,1.7807423 5.9555936,1.9214429 L 6.5096023,0 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, '"
+       id="path2169" />
+  </g>
 </svg>

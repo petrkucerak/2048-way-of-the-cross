@@ -23,7 +23,7 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.57245266"
-     inkscape:cx="-20.088997"
+     inkscape:cx="-147.61046"
      inkscape:cy="338.89265"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -43,15 +43,17 @@
        stroke-width="36"
        id="path15088" />
   </g>
-  <text
-     xml:space="preserve"
-     style="font-size:97.3665px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:286.42;stroke-linecap:round;stroke-miterlimit:16.7;stroke-dasharray:none;paint-order:markers fill stroke"
-     x="1.2836404"
-     y="64.895157"
-     id="text301"><tspan
-       sodipodi:role="line"
-       id="tspan299"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:286.42;stroke-dasharray:none"
-       x="1.2836404"
-       y="64.895157">XI</tspan></text>
+  <g
+     aria-label="XI"
+     id="text301"
+     style="font-size:97.3665px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;stroke-width:286.42;stroke-linecap:round;stroke-miterlimit:16.7;paint-order:markers fill stroke">
+    <path
+       d="M 62.470499,3.7029386e-6 43.643773,30.141782 65.46566,64.895157 H 42.312591 L 30.331947,44.499537 18.256219,64.895157 H 0 L 20.918584,31.282795 0.85576025,3.7029386e-6 H 24.056372 L 34.135326,17.448005 44.594618,3.7029386e-6 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, '"
+       id="path2220" />
+    <path
+       d="M 89.712201,3.7029386e-6 V 64.895157 H 69.792004 V 3.7029386e-6 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, '"
+       id="path2222" />
+  </g>
 </svg>

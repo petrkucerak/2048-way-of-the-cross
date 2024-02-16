@@ -23,8 +23,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.57245266"
-     inkscape:cx="32.317083"
-     inkscape:cy="272.51162"
+     inkscape:cx="-95.204379"
+     inkscape:cy="274.25849"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -62,15 +62,25 @@
        id="path6"
        style="stroke:#ffffff;stroke-width:42;stroke-dasharray:none;stroke-opacity:1" />
   </g>
-  <text
-     xml:space="preserve"
-     style="font-size:100.958px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:296.983;stroke-linecap:round;stroke-miterlimit:16.7;stroke-dasharray:none;paint-order:markers fill stroke"
-     x="-0.34507075"
-     y="67.288803"
-     id="text301"><tspan
-       sodipodi:role="line"
-       id="tspan299"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:296.983;stroke-dasharray:none"
-       x="-0.34507075"
-       y="67.288803">VIII</tspan></text>
+  <g
+     aria-label="VIII"
+     id="text301"
+     style="font-size:100.958px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#ffffff;stroke-width:296.983;stroke-linecap:round;stroke-miterlimit:16.7;paint-order:markers fill stroke">
+    <path
+       d="M 63.739597,-9.8388642e-5 42.838136,67.288803 H 21.788788 L 5.4016709e-7,-9.8388642e-5 H 21.788788 L 32.387406,36.67605 q 1.08451,3.253529 1.92254,6.408467 L 46.732512,-9.8388642e-5 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, '"
+       id="path2261" />
+    <path
+       d="M 90.605864,-9.8388642e-5 V 67.288803 H 69.950882 V -9.8388642e-5 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, '"
+       id="path2263" />
+    <path
+       d="M 122.99327,-9.8388642e-5 V 67.288803 H 102.33829 V -9.8388642e-5 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, '"
+       id="path2265" />
+    <path
+       d="M 155.38068,-9.8388642e-5 V 67.288803 H 134.7257 V -9.8388642e-5 Z"
+       style="font-family:'Franklin Gothic Heavy';-inkscape-font-specification:'Franklin Gothic Heavy, '"
+       id="path2267" />
+  </g>
 </svg>
