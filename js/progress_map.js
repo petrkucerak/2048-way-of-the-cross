@@ -28,10 +28,9 @@ let lastMaxValue = 0;
 
 function informAboutNewStation(station) {
   const messageEl = document.querySelector(".game-message");
-  const box = document.querySelector("#game-message");
 
   // handle click
-  box.addEventListener("touchstart", () => {
+  window.addEventListener("touchstart", () => {
     if (messageEl.classList.contains("game-info")) {
       el.innerHTML = "";
       messageEl.classList.remove("game-info");
