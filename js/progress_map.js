@@ -55,6 +55,14 @@ function informAboutNewStation(station) {
   }, 5000);
 }
 
+document.addEventListener("click", function (event) {
+  // Získání elementu, na který bylo kliknuto
+  var clickedElement = event.target;
+
+  // Vypsání názvu tagu tohoto elementu
+  console.log(clickedElement.tagName);
+});
+
 function updateProgress(grid) {
   // console.log(grid);
   // get max value
@@ -97,21 +105,3 @@ numbers.map((no) => {
     window.scrollTo(0, 0);
   });
 });
-
-const closeWelcome = document.querySelector("#progress-text-close-welcome");
-closeWelcome.addEventListener("click", () => {
-  const boxWelcome = document.querySelector("#welcome-info");
-  const messageEl = document.querySelector(".game-message");
-  messageEl.classList.remove("game-info");
-  boxWelcome.classList.add("hidden");
-  localStorage.setItem("closeWelcomeMessage", "true");
-});
-
-window.onload = () => {
-  if (localStorage.getItem("closeWelcomeMessage") !== "true") {
-    const boxWelcome = document.querySelector("#welcome-info");
-    const messageEl = document.querySelector(".game-message");
-    messageEl.classList.add("game-info");
-    boxWelcome.classList.remove("hidden");
-  }
-};
