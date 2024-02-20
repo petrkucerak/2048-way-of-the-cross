@@ -9,7 +9,7 @@ async function renderScoreboard() {
     (a, b) => parseInt(b.metadata.score) - parseInt(a.metadata.score)
   );
 
-  console.log(score);
+  // console.log(score);
 
   score.map((e) => {
     string += `<li>${e.name} - ${e.metadata.score} b</li>`;
