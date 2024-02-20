@@ -65,7 +65,9 @@
           <div class="lower">
             <a class="keep-playing-button">Pokračovat ve hře</a>
             <a class="retry-button">Zkusit znovu</a>
-            <a class="share-button">Zapsat se do síně slávy</a>
+            <a class="share-button" onclick="displayGloryBox()"
+              >Zapsat se do síně slávy</a
+            >
           </div>
         </div>
 
@@ -762,6 +764,7 @@
         >
       </p>
     </div>
+    <div id="share-score" class="hidden"></div>
 
     <script src="js/bind_polyfill.js"></script>
     <script src="js/classlist_polyfill.js"></script>
@@ -774,5 +777,6 @@
     <script src="js/game_manager.js"></script>
     <script src="js/progress_map.js"></script>
     <script src="js/application.js"></script>
+    <script src="js/post2scoreboard.js"></script>
   </body>
 </html>
