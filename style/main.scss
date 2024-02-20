@@ -365,6 +365,9 @@ hr {
       .retry-button {
         display: none;
       }
+      .share-button {
+        display: none;
+      }
       .new-station {
         display: block;
       }
@@ -727,6 +730,9 @@ hr {
         .retry-button {
           display: none;
         }
+        .share-button {
+          display: none;
+        }
         .new-station {
           display: block;
         }
@@ -935,6 +941,9 @@ hr {
         display: block;
         @include animation(fade-in 1ms ease $transition-speed * 12);
         .retry-button {
+          display: none;
+        }
+        .share-button {
           display: none;
         }
         .new-station {
