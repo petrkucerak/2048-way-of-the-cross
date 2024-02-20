@@ -27,7 +27,7 @@ async function sendScore() {
     requestOptions
   );
   const message = await response.text();
-  console.log(message);
+  // console.log(message);
   const messageEl = document.querySelector("#status");
   messageEl.innerHTML = message;
 }
