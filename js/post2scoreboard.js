@@ -1,8 +1,10 @@
 async function sendScore() {
   const nickname = document.querySelector("#nickname").value;
   const secret = document.querySelector("#secret").value;
-  const game = JSON.parse(localStorage.getItem("gameState"));
-  const score = game.score;
+  // const game = JSON.parse(localStorage.getItem("gameState"));
+  const score = parseInt(
+    document.querySelector(".score-container").textContent
+  );
 
   console.log(nickname, secret, score);
   const data = {
