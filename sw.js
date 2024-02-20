@@ -15,6 +15,8 @@ const urlsToCache = [
   "/js/local_storage_manager.js",
   "/js/progress_map.js",
   "/js/tile.js",
+  "/js/post2scoreboard.js",
+  "/js/scoreboard.js",
   // fonts
   "/style/fonts/Roboto-Black.woff",
   "/style/fonts/Roboto-Black.woff2",
