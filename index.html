@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="375" />
-    <meta property="og:site_name" content="Colby Fayock" />
+    <meta property="og:site_name" content="Křížová cesta" />
     <meta property="“og:title”" content="Křížová cesta!" />
     <meta
       property="og:description"
@@ -65,6 +65,9 @@
           <div class="lower">
             <a class="keep-playing-button">Pokračovat ve hře</a>
             <a class="retry-button">Zkusit znovu</a>
+            <a class="share-button" onclick="displayGloryBox()"
+              >Zapsat se do síně slávy</a
+            >
           </div>
         </div>
 
@@ -744,6 +747,9 @@
         spojíš dvě zastavení s&nbsp;stejnými symboly
         <strong>získáš jedno nové!</strong>
       </p>
+      <div class="sin-slavy-box">
+        <a href="/sin-slavy">Síň slávy</a>
+      </div>
       <hr />
       <p>
         Vytvořeno
@@ -758,6 +764,7 @@
         >
       </p>
     </div>
+    <div id="share-score" class="hidden"></div>
 
     <script src="js/bind_polyfill.js"></script>
     <script src="js/classlist_polyfill.js"></script>
@@ -770,5 +777,6 @@
     <script src="js/game_manager.js"></script>
     <script src="js/progress_map.js"></script>
     <script src="js/application.js"></script>
+    <script src="js/post2scoreboard.js"></script>
   </body>
 </html>

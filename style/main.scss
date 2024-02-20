@@ -1,5 +1,6 @@
 @import "_helpers";
 @import "fonts/roboto.css";
+@import "_glory";
 
 $field-width: 500px;
 $grid-spacing: 15px;
@@ -55,8 +56,44 @@ h1.title {
   margin-bottom: 0.5rem;
 }
 
+.sin-slavy-box {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: darken($game-container-background, 20%);
+    color: white;
+    border-radius: 3px;
+    padding: 0.7rem 1rem;
+  }
+}
+
 .hidden {
   display: none !important;
+}
+.share-button {
+  margin-top: 0.5rem;
+  @include smaller($super-small-phones) {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+}
+.keep-playing-button {
+  @include smaller($super-small-phones) {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+}
+.retry-button {
+  @include smaller($super-small-phones) {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
 }
 
 .welcome-info {
@@ -205,6 +242,53 @@ h1.title {
   content: "Best";
 }
 
+#share-score {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  background-color: #faf8efea;
+  z-index: 100;
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    width: 90vw;
+    margin: auto;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .input {
+      background-color: none;
+      border: $text-color 1px solid;
+      border-radius: 3px;
+      font-family: "Roboto", Arial, sans-serif;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      width: calc(100% - 2rem);
+      padding: 1rem 1rem;
+    }
+
+    .submit {
+      @include button;
+      border: none;
+      font-family: "Roboto", Arial, sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}
+
 p {
   margin-top: 0;
   margin-bottom: 10px;
@@ -229,6 +313,13 @@ hr {
   border-bottom: 1px solid lighten($text-color, 40%);
   margin-top: 20px;
   margin-bottom: 30px;
+  @include smaller($mobile-threshold) {
+    margin: 0;
+  }
+
+  @include smaller($super-small-phones) {
+    margin: 0;
+  }
 }
 
 .container {
@@ -339,6 +430,9 @@ hr {
       display: block;
       @include animation(fade-in 1ms ease $transition-speed * 12);
       .retry-button {
+        display: none;
+      }
+      .share-button {
         display: none;
       }
       .new-station {
@@ -703,6 +797,9 @@ hr {
         .retry-button {
           display: none;
         }
+        .share-button {
+          display: none;
+        }
         .new-station {
           display: block;
         }
@@ -911,6 +1008,9 @@ hr {
         display: block;
         @include animation(fade-in 1ms ease $transition-speed * 12);
         .retry-button {
+          display: none;
+        }
+        .share-button {
           display: none;
         }
         .new-station {

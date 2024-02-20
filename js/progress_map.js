@@ -74,7 +74,7 @@ function updateProgress(grid) {
   }
 
   if (lastMaxValue < maxValue) {
-    if (lastMaxValue !== 0) informAboutNewStation(maxValue);
+    if (lastMaxValue !== 0 && maxValue !== 16) informAboutNewStation(maxValue);
     lastMaxValue = maxValue;
   }
 }
