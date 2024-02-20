@@ -22,7 +22,7 @@ async function sendScore() {
     redirect: "follow",
   };
 
-  fetch("http://api.krizovka.diecezko.cz/", requestOptions)
+  fetch("https://api.krizovka.diecezko.cz/", requestOptions)
     .then((response) => {
       console.log(response.text());
     })
