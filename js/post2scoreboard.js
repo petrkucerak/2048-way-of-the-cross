@@ -26,7 +26,7 @@ async function sendScore() {
     "https://api.krizovka.diecezko.cz/",
     requestOptions
   );
-  const message = await response.json();
+  const message = await response.text();
   console.log(message);
 }
 
