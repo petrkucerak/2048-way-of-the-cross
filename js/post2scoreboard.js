@@ -22,14 +22,12 @@ async function sendScore() {
     redirect: "follow",
   };
 
-  fetch("https://api.krizovka.diecezko.cz/", requestOptions)
-    .then((response) => {
-      console.log(response.text());
-    })
-    .then((result) => {
-      console.log(result);
-    })
-    .catch((error) => console.error(error));
+  const response = await fetch(
+    "https://api.krizovka.diecezko.cz/",
+    requestOptions
+  );
+  const message = await response.json();
+  console.log(message);
 }
 
 function displayGloryBox() {
