@@ -75,6 +75,26 @@ h1.title {
 .hidden {
   display: none !important;
 }
+.share-button {
+  margin-top: 0.5rem;
+  @include smaller($super-small-phones) {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+}
+.keep-playing-button {
+  @include smaller($super-small-phones) {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+}
+.retry-button {
+  @include smaller($super-small-phones) {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+}
 
 .welcome-info {
   display: flex;
