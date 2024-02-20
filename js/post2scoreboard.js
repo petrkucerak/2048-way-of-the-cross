@@ -23,8 +23,12 @@ async function sendScore() {
   };
 
   fetch("http://api.krizovka.diecezko.cz/", requestOptions)
-    .then((response) => console.log(response.text()))
-    .then((result) => console.log(result))
+    .then((response) => {
+      console.log(response.text());
+    })
+    .then((result) => {
+      console.log(result);
+    })
     .catch((error) => console.error(error));
 }
 
