@@ -28,6 +28,8 @@ async function sendScore() {
   );
   const message = await response.text();
   console.log(message);
+  const messageEl = document.querySelector("#status");
+  messageEl.innerHTML = message;
 }
 
 function displayGloryBox() {
