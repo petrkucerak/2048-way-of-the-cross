@@ -10,4 +10,27 @@
    h2 {
       margin-top: 0;
    }
+
+   ol {
+      padding: 0;
+   }
+
+   li {
+      margin-left: 1.5rem;
+      margin-bottom: 0.6rem;
+   }
+
+   .first {
+      font-weight: 600;
+      font-size: 1.2rem;
+      list-style: none;
+      margin-left: 0.2rem;
+      &::before {
+         content: "\2655  ";
+      }
+   }
+
+   .top {
+      font-weight: 600;
+   }
 }
