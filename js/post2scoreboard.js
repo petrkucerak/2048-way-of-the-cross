@@ -6,7 +6,7 @@ async function sendScore() {
     document.querySelector(".score-container").textContent
   );
 
-  console.log(nickname, secret, score);
+  // console.log(nickname, secret, score);
   const data = {
     nickname: nickname,
     score: score,

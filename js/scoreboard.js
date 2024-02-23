@@ -17,7 +17,7 @@ async function renderScoreboard() {
   score[1].class = "top";
   score[2].class = "top";
 
-  console.log(score);
+  // console.log(score);
 
   score.map((e) => {
     string += `
