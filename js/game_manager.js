@@ -89,6 +89,8 @@ GameManager.prototype.actuate = function () {
 
   updateProgress(this.grid);
 
+  localStorage.setItem("currScore", `${this.score}`);
+
   this.actuator.actuate(this.grid, {
     score: this.score,
     over: this.over,

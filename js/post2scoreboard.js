@@ -5,6 +5,9 @@ async function sendScore() {
   const score = parseInt(
     document.querySelector(".score-container").textContent
   );
+  const score2 = parseInt(localStorage.getItem("currScore"));
+
+  if (score !== score2) return;
 
   // console.log(nickname, secret, score);
   const data = {

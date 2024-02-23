@@ -57,6 +57,7 @@ function informAboutNewStation(station) {
 function updateProgress(grid) {
   // console.log(grid);
   // get max value
+
   let maxValue = 0;
   grid.cells.map((row) =>
     row.map((tile) =>
